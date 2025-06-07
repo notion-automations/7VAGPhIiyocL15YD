@@ -10,7 +10,7 @@ concurrency:
 jobs:
   sync:
     name: Sync
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     env:
       REPOSITORY: ${{ github.repository }}
       TOKEN: ${{ secrets.TOKEN }}
